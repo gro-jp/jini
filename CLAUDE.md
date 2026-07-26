@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this workspace is
 
-A documents-only planning workspace for designing an **org-wide autonomous software factory** — a system where tickets become specs, specs become tested code, and a deterministic policy engine decides merges/deploys with minimal human involvement. There is no code here: no build, lint, or test commands, and (as of 2026-07-26) it is not a git repository.
+A documents-only planning workspace for designing an **org-wide autonomous software factory** — a system where tickets become specs, specs become tested code, and a deterministic policy engine decides merges/deploys with minimal human involvement. There is no code here: no build, lint, or test commands.
+
+It is a git repository; the remote is GitHub `gro-jp/jini`. Changes land on `main` via pull request (`gh pr create`), not by pushing to `main` directly.
 
 The same design brief was given in parallel to three AI assistants. Each track's output lives in its own directory under `brainstormings/` and is a **competing alternative, not part of one consistent spec**:
 
